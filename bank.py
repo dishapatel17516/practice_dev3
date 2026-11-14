@@ -1,6 +1,6 @@
 import sys
 
-name = int(sys.argv[1])
+name = sys.argv[1]
 ini_balance = int(sys.argv[2])
 deposit = int(sys.argv[3])
 total_balance = ini_balance + deposit
